@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+ruby '2.1.5'
+
+gem 'activesupport', '4.2.0'
+gem 'commander', '4.3.4'
+gem 'nokogiri', '1.6.3.1'
+gem 'rake', '10.4.2'
+gem 'rest-client', '1.8.0'
+gem 'rspec', '3.2.0'
+gem 'rspec-legacy_formatters', '1.0.0'
+gem 'rubocop', '0.31.0'
+gem 'sinatra', '1.4.6'

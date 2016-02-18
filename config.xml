@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outpostConfig>
+  <testCentral>
+    <host>http://localhost:3000</host>
+    <ssoPath>/rest/v1/sso</ssoPath>
+    <uploadPath>/rest/v1/upload_outpost_json_file</uploadPath>
+    <register>/rest/v1/register</register>
+    <emailQueue>/rest/v1/email_queue</emailQueue>
+  </testCentral>
+  <outpost>
+    <server>
+      <name>vinhly</name>
+      <port>4569</port>
+    </server>
+    <silo>
+      <name>1794_poc</name>
+    </silo>
+  </outpost>
+</outpostConfig>
