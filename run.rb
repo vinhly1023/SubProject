@@ -1,13 +1,3 @@
-require 'commander'
-require 'sinatra/base'
-require 'json'
-require_relative 'lib/testcentral_services'
-require_relative 'lib/version'
-
-$session = nil
-$outpost_status = 'Ready'
-$outpost_result = '_.json'
-
 class OutpostServer < Sinatra::Base
   set :bind, '0.0.0.0'
 
