@@ -1,12 +1,4 @@
-require 'active_support'
-require 'active_support/core_ext'
-require 'json'
-require 'nokogiri'
-require 'open3'
-require 'tempfile'
-require_relative 'lib/version'
-require_relative 'lib/testcentral_services'
-
+=
 task default: %w(lf_ws)
 
 CONST_CONFIG_XML = Nokogiri::XML File.read("#{Dir.pwd}/config.xml")
