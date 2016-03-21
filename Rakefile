@@ -1,5 +1,12 @@
-=
-task default: %w(lf_ws)
+
+require 'active_support'
+require 'active_support/core_ext'
+require 'json'
+require 'nokogiri'dwewewe
+require 'open3'
+require 'tempfile'
+require_relative 'lib/version'
+require_relative 'lib/testcentral_services'
 
 CONST_CONFIG_XML = Nokogiri::XML File.read("#{Dir.pwd}/config.xml")
 CONST_HOST = CONST_CONFIG_XML.search('//host').text
